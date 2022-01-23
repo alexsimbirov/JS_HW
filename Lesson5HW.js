@@ -150,3 +150,26 @@ console.log(myString.ucWords('qwerty qwerty qwerty'));
 // console.log(myString.reverse());
 // console.log(myString.ucFirst());
 // console.log(myString.ucWords());
+
+// Task 3
+console.log('Task 3')
+class Validator {
+   constructor() {}
+   checkIsEmail(email) {
+       console.log(email.includes('@'))
+   }
+   checkIsDomain(domain) {
+       console.log(domain.includes('.'))
+   }
+   // checkIsDate(date) {
+   //    console.log(date.includes())
+   // }
+   checkIsPhone(Phone) {
+       console.log(Phone.includes('+38'))
+   }
+}
+let validator = new Validator();
+validator.checkIsEmail('vasya.pupkin@gmail.com');
+validator.checkIsDomain('https://google.com');
+// validator.checkIsDate('30.11.2019'); // не понял как провериь дату на валидацию
+validator.checkIsPhone('+38 (066) 937-99-92');
