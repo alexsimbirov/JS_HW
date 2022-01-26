@@ -1,0 +1,14 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+tr:nth-child(2), tr:nth-child(4), tr:nth-child(6), tr:nth-child(8) {
+	background-color: lightgrey;
+}
+td, tr {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid grey;
+}
